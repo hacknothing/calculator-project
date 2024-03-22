@@ -1,0 +1,295 @@
+* {
+    text-decoration: none;
+
+    list-style: none;
+    color: white;
+}
+
+body {
+    background-color: #000;
+}
+#navbar {
+    width: 100vw;
+    height: 100px;
+    background-color: transparent;
+}
+
+#navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li {
+    display: inline-block;
+    margin-right: 60px;
+    font-size: large;
+    font-weight: bolder;
+    margin-top: 10px;
+    
+}
+ 
+ul li a {
+    color: white;
+}
+
+ 
+
+ul li a:hover {
+    color: #FF8911;
+}
+
+
+#card , #card-body h3 {
+    color: #FF8911;
+    font-family: Arial;
+    font-size: 50px;
+}
+
+
+#content {
+    width: 400px;
+    padding-top: 100px;
+    padding-left: 150px;
+    columns: 150px 1;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+#content button {
+    width: 150px;
+    height: 50px;
+    background-color: #00ffff;
+    border-radius: 10px;
+    
+}
+
+#content button a{
+    text-decoration: none;
+    background-color: #00ffff;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.start-button {
+    outline: none;
+    border: 0px;
+    font-size: 20px;
+}
+
+.start-button:hover {
+    
+    box-shadow: 
+              0 0 30px #00ffff,
+              0 0 60px #00ffff;
+}
+/* 
+card hover effect */
+
+.card {
+    width: 300px;
+    height: 400px;
+    border: 5px solid white(231, 95, 95);
+    position: relative;
+    overflow: hidden; 
+    cursor: pointer;
+    border: 5px solid white;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+
+.card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+#card-body {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: -100%;
+    padding: 10px;
+    position: absolute;
+    background-color: #00000035;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 1s ease-in-out;
+   
+}
+
+.card:hover #card-body {
+    left: 0;
+    backdrop-filter: blur(5px);
+}
+
+#subtitle, #info {
+    color: #fff;
+}
+
+
+
+#con {
+    color: #FF8911;
+    font-size: 50px;
+}
+
+#content p {
+    font-size: medium;
+   
+}
+
+/* web info */
+
+
+.web-info {
+    margin: 20px;
+    margin-top: 50px;
+}
+
+.web-info p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: normal;
+}
+
+.web-info h1 {
+    color: #FAA300;
+    font-size: 50px;
+}
+
+/* info about mr */
+
+.design-info {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.my-image {
+    width: 300px;
+    height: 400px;
+    margin-left: 150px;
+}
+
+.details {
+    width: 300px;
+    height: 350px;
+    border: 2px solid white;
+    padding: 20px;
+    margin-right: 200px;
+}
+
+.fa-linkedin-in {
+
+    font-size: 30px ;
+    color: #ff5e14;
+}
+
+.fa-envelope-open {
+
+    font-size: 30px ;
+    padding-left: 20px;
+}
+
+.fa-instagram {
+     font-size: 30px ;
+     padding-left: 20px;
+     color: #ff5e14;
+
+
+
+}
+
+.fa-whatsapp {
+   font-size: 30px;
+   padding-left: 20px;
+  color: #ff5e14;
+}
+
+.logo {
+    background-color: transparent;
+    outline: none;
+    border: 0px;
+    cursor: pointer;
+}
+
+/* 
+footer design */
+
+.footer {
+    width: 100vw;
+    height: 400px;
+    background-color: #252525;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    margin: 100px;
+    padding: 50px;
+    cursor: pointer;
+}
+
+.footer-links {
+    margin: 30px;
+}
+
+.footer-info {
+    margin: 30px;
+}
+
+.footer-image {
+    margin-top: -150px;
+    position: relative;
+}
+
+.footer-name {
+    top: 15px;
+    left: 80px;
+    position: absolute;
+}
+
+.fa-map-marker-alt {
+    color: #ff5e14;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.fa-phone {
+    color: #ff5e14;
+}
+
+.fa-envelope-open {
+    color: #ff5e14;
+}
+
+.nothing {
+    display: flex;
+    flex-direction: row;
+    margin-left: 300px;
+
+}
+
+.det {
+    width: 100px;
+    margin-right: 100px;
+}
+
+
+
+@media screen  {
+    
+    
+}
+
+
