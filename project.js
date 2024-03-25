@@ -11,3 +11,16 @@ function loginform()
     }
     logincount++;
 }
+
+var menucount=2;
+function menubar()
+{
+    if(menucount%2==0)
+    {
+        document.getElementById("sidemenu").style.display="none"
+    }
+    else{
+        document.getElementById("sidemenu").style.display="block"
+    }
+    menucount++;
+}
