@@ -8,8 +8,9 @@
 body {
     background-color: #000;
 }
+
 #navbar {
-    width: 100vw;
+    width: 95vw;
     height: 100px;
     background-color: transparent;
 }
@@ -242,7 +243,7 @@ footer design */
 
 .footer {
     width: 100vw;
-    height: 400px;
+    height: auto;
     background-color: #252525;
 }
 
@@ -361,6 +362,7 @@ footer design */
     width: 50px;
     height: 30px;
     background-color: none;
+    display: none;
 }
 
 
@@ -421,10 +423,6 @@ footer design */
         display: block;
     }
 
-    .sidemenu{
-        display: block;
-    }
-
     .options{
         display: none;
     }
@@ -435,7 +433,29 @@ footer design */
         flex-direction: column-reverse;
     }
 
+    #content{
+        padding-left: 50px;
+        width: 300px;
+    }
+
+   .design-info{
+    flex-direction: column;
+   }
+
+   .my{
+    margin-left: -130px;
+   }
+
     .card{
         margin-left: 50px;
+    }
+
+    .footer-container{
+        flex-direction: column;
+    }
+
+    .nothing {
+        flex-direction: column;
+        margin-left: 10px;
     }
 }

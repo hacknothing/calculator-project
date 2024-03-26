@@ -12,7 +12,7 @@ function loginform()
     logincount++;
 }
 
-var menucount=2;
+var menucount=1;
 function menubar()
 {
     if(menucount%2==0)
