@@ -92,6 +92,8 @@ p {
     justify-content: space-between;
 }
 
+
+
 .start-button {
     outline: none;
     border: 0px;
@@ -173,7 +175,7 @@ card hover effect */
 
 .web-info p {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     line-height: normal;
 }
 
@@ -439,7 +441,7 @@ footer design */
     }
 
     #content{
-        padding-left: 50px;
+        padding-left: 15px;
         width: 300px;
     }
 
@@ -453,7 +455,7 @@ footer design */
    
 
    .details{
-    margin-left: 40%;
+    margin-left: 60%;
    }
 
     .card{
@@ -470,4 +472,10 @@ footer design */
         flex-direction: column;
         margin-left: 10px;
     }
+}
+
+@media (min-width: 20px){
+   .details{
+       margin-left: 170px;
+   }
 }
