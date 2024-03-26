@@ -132,7 +132,7 @@ card hover effect */
     height: 100%;
     top: 0;
     left: -100%;
-    padding: 10px;
+    
     position: absolute;
     background-color: #00000035;
     display: flex;
@@ -193,7 +193,7 @@ card hover effect */
 .my-image {
     width: 300px;
     height: 400px;
-    margin-left: 150px;
+    /* margin-left: 150px; */
 }
 
 .details {
@@ -390,6 +390,8 @@ footer design */
 }
 
 
+/* Responsive design */
+
 @media (min-width: 960px) and (max-width:1496px) {
     .menubar{
         display: none;
@@ -431,6 +433,9 @@ footer design */
 @media (max-width: 874px){
     .main{
         flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-left: 15%;
     }
 
     #content{
@@ -440,10 +445,15 @@ footer design */
 
    .design-info{
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
    }
 
-   .my{
-    margin-left: -130px;
+
+   
+
+   .details{
+    margin-left: 40%;
    }
 
     .card{
@@ -452,6 +462,8 @@ footer design */
 
     .footer-container{
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .nothing {
